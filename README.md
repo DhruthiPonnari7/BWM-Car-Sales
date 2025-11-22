@@ -1,70 +1,122 @@
 🚗 BMW Car Sales — Exploratory Data Analysis (EDA)
-This project presents a beginner-friendly Exploratory Data Analysis (EDA) on BMW’s global car sales dataset.
-It aims to uncover sales trends, top-performing models, and customer preferences based on transmission, fuel type, and region.
+
+This project presents a complete Exploratory Data Analysis (EDA) on BMW’s global car sales dataset.
+The objective is to uncover sales trends, identify top-performing models, and understand customer preferences across regions, fuel types, and transmission categories.
 
 📘 Project Overview
-This notebook walks through the complete EDA process — from data cleaning to visualization — using Python libraries like Pandas, Matplotlib, and Seaborn.
-The goal is to help understand how BMW’s sales have evolved over time and which factors influence them the most.
+
+This analysis walks through the full EDA workflow — including data cleaning, transformation, visualization, and insights generation — using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn.
+
+The goal is to understand how BMW’s sales evolved over time and what factors influence market demand.
 
 🧩 Dataset Information
+
 Dataset Name: BMW_SALES.csv
-Source: Internal / Public automotive dataset (replace with actual source if applicable)
-Rows: varies based on file
-Columns include:
+Source: Public/Automotive dataset (replace with actual source if required)
 
-Year — Year of sales record
-Region — Geographic region of sales
-Model — BMW model name
+Key Columns:
+
+Year — Sales record year
+
+Region — Sales region
+
+Model — BMW car model
+
 Sales_Volume — Units sold
-Transmission — Transmission type (Manual/Automatic)
-Fuel_Type — Type of fuel used
-Sales_Classification — Category (Standard / Luxury / Sports)
+
+Transmission — Automatic / Manual
+
+Fuel_Type — Petrol / Diesel / Hybrid / Electric
+
+Sales_Classification — Standard / Luxury / Sports
+
 🧠 Analysis Workflow
-1️⃣ Data Setup & Loading
-Imported necessary libraries (Pandas, NumPy, Matplotlib, Seaborn).
-Loaded dataset and viewed its structure.
+1️⃣ Data Loading & Setup
+
+Imported essential libraries
+
+Loaded dataset and viewed structure
+
 2️⃣ Data Cleaning
-Checked for missing values and duplicates.
-Reviewed data types and column names.
-Cleaned inconsistencies and formatted columns.
+
+Checked for missing values and duplicates
+
+Standardized column names and formats
+
+Fixed inconsistencies and cleaned data types
+
 3️⃣ Univariate Analysis
-Examined single-variable trends:
-Sales over years
-Top-selling models
-Regional distribution
-Fuel type and transmission breakdowns
+
+Yearly sales trends
+
+Top-selling BMW models
+
+Regional sales distribution
+
+Transmission & fuel type breakdowns
+
 4️⃣ Bivariate & Statistical Insights
-Compared variables such as:
+
 Fuel Type vs Region
+
 Sales Classification vs Year
-Created a correlation matrix and boxplots for numeric data.
+
+Correlation heatmap
+
+Boxplots for numerical distributions
+
 5️⃣ Key Findings
-Europe and North America dominated BMW sales.
-Automatic transmission and petrol cars were most common.
-SUVs and luxury segments showed increasing popularity in recent years.
+
+Europe and North America lead BMW’s global sales
+
+Automatic transmission vehicles dominate
+
+Petrol vehicles remain most common, with rising hybrid/electric demand
+
+SUVs and luxury models show strong growth
+
 📊 Visualizations
-The notebook includes:
 
-Line plots showing yearly sales trends.
-Bar plots for top models, regions, and fuel types.
-Pie chart for distribution summaries.
-Heatmap and boxplots for statistical insights.
+The project includes:
+
+Line plots showing yearly sales trends
+
+Bar charts for models, regions, fuel types
+
+Pie charts for distribution summaries
+
+Heatmaps and boxplots for statistical analysis
+
 🏁 Conclusion
-BMW’s global sales data shows:
 
-Consistent growth from 2010–2020 with some recent fluctuations.
-SUVs and mid-luxury models driving demand.
-Growing adoption of hybrid/electric vehicles.
-Clear dominance of automatic transmission vehicles.
-🚀 Future Enhancements
-Add interactive visualizations using Plotly or Power BI.
-Integrate pricing and profit data for business insights.
-Perform time-series forecasting on yearly sales.
-Develop a dashboard for real-time visualization.
+BMW sales show:
+
+Strong growth from 2010–2020 with fluctuations in later years
+
+Increasing popularity of luxury and SUV models
+
+Shift towards hybrid and electric vehicles
+
+Clear dominance of automatic transmission cars
+
+🚀 Future Improvements
+
+Add interactive visualizations (Plotly, Power BI)
+
+Integrate pricing/profit data for deeper business insights
+
+Perform time-series forecasting for future sales predictions
+
+Build a real-time analytics dashboard
+
 🛠️ Tech Stack
+
 Python
+
 Pandas
+
 NumPy
+
 Matplotlib
+
 Seaborn
-(Optional) Plotly for interactive charts
